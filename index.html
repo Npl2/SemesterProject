@@ -1,0 +1,200 @@
+<!--
+Name: Nathaniel Llacuna
+Professor: Arthur Hendela
+Due Date: 4/29/2022 6:35pm
+Last Updated: 4/18/2022
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Only -->
+    <link rel="stylesheet" href="bootstrap-icons-1.8.1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="mainPage.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+        <div class="row">
+            <nav class="navbar navbar-expand-md justify-content-start col-12">
+                <!-- Clinic Name -->
+                <a class="navbar-brand" href="index.html">Clinic</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"><img src="https://img.icons8.com/plumpy/24/000000/menu-rounded.png"/></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Other Webpages -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Employee Background</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Types of Treatments</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Education
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Contact Form</a>
+                                <a class="dropdown-item" href="#">About Us</a>
+                                <a class="dropdown-item" href="#">Location</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <img class="navbar-text" src="bootstrap-icons-1.8.1/twitter.svg" alt="Twitter">
+                    <img src="bootstrap-icons-1.8.1/instagram.svg" alt="Instagram">
+                    <img src="bootstrap-icons-1.8.1/snapchat.svg" alt="Snapchat">
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="row">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Carousel/appointment.jpg" alt="Edison Lab" class="d-block w-100">
+                    <div class="container-sm">
+                        <h2>Random Title</h2>
+                        <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sem eu risus rhoncus, ac dapibus velit elementum. Donec a.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Carousel/No%20Face.jpg" alt="Where Airplane Invented" class="d-block w-100">
+                    <div class="container-sm">
+                        <h2>Random Title</h2>
+                        <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae finibus justo. Curabitur non ligula sit amet est rhoncus hendrerit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Carousel/world.jpg" alt="Ford Model T" class="d-block w-100">
+                    <div class="container-sm">
+                        <h2>Random Title</h2>
+                        <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur neque nec cursus egestas. Proin eget sapien vitae sapien sodales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="panel row align-items-md-stretch text-center">
+
+        <h2>Welcome! Accumsan in nisl nisi scelerisque</h2>
+        <div class="box1 col-m border  rounded-0 text-center text-wrap">
+            <div class="types-of-treatments p-5">
+                <img src="img/telephone.png" class="icons rounded-circle">
+                <h2>Contact Emergency Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in</p>
+
+            </div>
+        </div>
+        <div class="box2 col-m border rounded-0 text-center">
+            <div class="types-of-treatments p-5">
+                <img src="img/psychology.png" class="icons rounded-circle">
+                <a href="typesOfTreatments.html"><h2>Types of Treatments</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu.</p>
+            </div>
+        </div>
+        <div class="box3 col-m border rounded-0 text-center">
+            <div class="types-of-treatments p-5">
+                <img src="img/employees.png" class="icons rounded-circle">
+                <a href="typesOfTreatments.html"><h2>Staff</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar.</p>
+            </div>
+        </div>
+        <div class="box4 col-m border rounded-0 text-center">
+            <div class="types-of-treatments h-100 p-5  rounded-3">
+                <img src="img/random.png" class="icons rounded-circle">
+                <a href="typesOfTreatments.html"><h2>Lorem ipsum</h2></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="insurance p-5 bg-primary text-white">
+            <h2>Insurances</h2>
+            <p>Lorem ipsum...</p>
+        </div>
+    </div>
+<!--        <div class="row">-->
+<!--            <p class="col-1">Col 1</p>-->
+<!--            <p class="col-1">Col 2</p>-->
+<!--            <p class="col-1">Col 3</p>-->
+<!--            <p class="col-1">Col 4</p>-->
+<!--            <p class="col-1">Col 5</p>-->
+<!--            <p class="col-1">Col 6</p>-->
+<!--            <p class="col-1">Col 7</p>-->
+<!--            <p class="col-1">Col 8</p>-->
+<!--            <p class="col-1">Col 9</p>-->
+<!--            <p class="col-1">Col 10</p>-->
+<!--            <p class="col-1">Col 11</p>-->
+<!--            <p class="col-1">Col 12</p>-->
+<!--            <div class="col-sm-4  text-center">-->
+<!--                <h2>h3 Bootstrap heading (24px)</h2>-->
+<!--                <h3>h4 Bootstrap heading (18px)</h3>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    <footer class="footer page-footer font-small">-->
+
+<!--        <div class="container text-center">-->
+<!--            <div class="row">-->
+<!--                <p>sadasd</p>-->
+<!--            </div>-->
+<!--            <div class="col-md-6 row">-->
+<!--                <span class="text-muted">&copy; Nathaniel Llacuna, 2022 |  Terms Of Use  |  Privacy Statement</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </footer>-->
+
+<!--    <div class="container my-5">-->
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Nathaniel Llacuna, 2022 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+<!-- Javescript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>
