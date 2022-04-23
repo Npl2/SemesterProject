@@ -1,14 +1,8 @@
-/*------------------------
-Name: Nathaniel Llacuna
-Professor: Arthur Hendela
-Due Date: 4/29/2022 6:35pm
-Last Updated: 4/21/2022
- -------------------------*/
 
 body {
     background-color: whitesmoke;
     font-family: Futura;
-    color: #360860
+    color: #310250;
 }
 
 /*----------------------- Header -----------------------*/
@@ -44,22 +38,23 @@ header .dropdown-menu {
     padding-right: 5px;
 
 }
-/*-----------------------        -----------------------*/
+/*-----------------------      -----------------------*/
 
-/*------------------- List of Treatments ----------------------*/
-
-
-.list-of-treatmetns {
-    margin-top: 50px;
-}
+/*-----------------------   Employee Info   -----------------------*/
 
 h1 {
     margin-top: 10px;
-    margin-left: 12px;
+    margin-left: 16px;
     padding-left: 10px;
     background-color: white;
 }
 
+h4,p {
+    padding-top: 30px;
+}
+
+
+/*-----------------------                  -----------------------*/
 
 /*----------------------- Footer -----------------------*/
 

@@ -2,7 +2,7 @@
 Name: Nathaniel Llacuna
 Professor: Arthur Hendela
 Due Date: 4/29/2022 6:35pm
-Last Updated: 4/21/2022
+Last Updated: 4/22/2022
 -->
 
 <!DOCTYPE html>
@@ -35,10 +35,10 @@ Last Updated: 4/21/2022
                 <ul class="navbar-nav">
                     <!-- Other Webpages -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Employee Background</a>
+                        <a class="nav-link" href="employeeBackground.html">Employee Background</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Types of Treatments</a>
+                        <a class="nav-link" href="typesOfTreatments.html">Types of Treatments</a>
                     </li>
                     <!-- Dropdown -->
                     <li class="nav-item dropdown">
@@ -47,7 +47,7 @@ Last Updated: 4/21/2022
                             Education
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Contact Form</a>
+                            <a class="dropdown-item" href="contactPage.html">Contact Form</a>
                             <a class="dropdown-item" href="#">About Us</a>
                             <a class="dropdown-item" href="#">Location</a>
                         </div>
@@ -91,8 +91,14 @@ Last Updated: 4/21/2022
                 </label>
             </div>
             <div class="fillin form-group">
+                <label for="topic">Topic: Schedule Appointment or Ask a Question!</label>
+                <input type="text" class="form-control" id="topic"
+                       placeholder="Topic" name="topic">
+                </select>
+            </div>
+            <div class="fillin form-group">
                 <label for="exampleFormControlTextarea1">Description:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="15"></textarea>
             </div>
             <button type="submit" class="submit btn btn-primary ">Submit</button>
         </form>
