@@ -23,6 +23,12 @@ header {
     margin-left: 10px;
     color: #310250;
     font-weight: bold;
+
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 80px;
 }
 
 /*Nav Bar Styles*/
@@ -93,60 +99,45 @@ header .dropdown-menu {
     background-color: white;
 }
 
-.panel h2 {
+.panel h5 {
+    padding-top: 15px;
     font-weight: bolder;
     color: #310250;
 }
 
-.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+.panel h5 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #310250;
+}
+
+.panel p {
+    color: #360860;
+    padding-top: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.card:hover {
     background-color: white;
 }
 
-.box1, .box2, .box3, .box4{
-    /*background-color: #f3f2fa;*/
-    background-color: #f1f1f1;
-    width: 20%;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: 15px;
-    margin-bottom: 40px;
-    word-wrap: normal;
+.cardTitle {
+    color: #360860;
+    font-weight: bolder;
 }
 
-.box4 {
-    margin-right: auto;
-}
-.types-of-treatments a{
-    padding-top: 60px;
-    text-decoration: none;
-}
-
-.types-of-treatments h2 {
-    padding-top: 30px;
-    text-align: center;
-    font-size: x-large;
-    font-weight: bold;
-    height: 100px;
-    color: #310250;
-}
-
-.types-of-treatments a h2{
-    padding-top: 30px;
-    text-align: center;
-    font-size: x-large;
-    height: 100px;
-    color: #310250;
-    text-decoration: none;
-}
-
-.types-of-treatments p {
-    color: #310250;
-}
-
-.types-of-treatments img {
-    height: 50px;
-    width: 50px;
-}
 /*----------------------- Jumbotron -----------------------*/
 
 .ins {
@@ -173,7 +164,6 @@ header .dropdown-menu {
     padding-left: 20px;
     padding-top: 30px;
 }
-
 
 /*-----------------------           -----------------------*/
 

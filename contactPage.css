@@ -24,6 +24,11 @@ header {
     font-weight: bold;
 }
 
+.navbar-brand img {
+    height: 50px;
+    width: 80px;
+}
+
 /*Nav Bar Styles*/
 header .nav-link {
     /*color: #1D3124;*/
