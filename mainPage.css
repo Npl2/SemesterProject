@@ -1,8 +1,8 @@
 /*------------------------
 Name: Nathaniel Llacuna
 Professor: Arthur Hendela
-Due Date: 4/29/2022 6:35pm
-Last Updated: 4/21/2022
+Due Date: 4/25/2022 6:35pm
+Last Updated: 4/25/2022
  -------------------------*/
 
 body {
@@ -11,52 +11,13 @@ body {
     font-family: Futura;
 }
 
-/*----------------------- Header -----------------------*/
 
-header {
-    background-color: white;
-    border-bottom-color: black;
-}
-
-/*Company Logo/name*/
-.navbar-brand {
-    margin-left: 10px;
-    color: #310250;
-    font-weight: bold;
-
-}
-
-.navbar-brand img {
-    height: 50px;
-    width: 80px;
-}
-
-/*Nav Bar Styles*/
-header .nav-link {
-    /*color: #1D3124;*/
-    color: #310250;
-}
-
-header .navbar-toggler-icon img {
-    padding-top: 5px;
-    z-index: -1;
-}
-
-/*Drop Down Menu*/
-header .dropdown-menu {
-    background-color: white;
-}
-
-.social img {
-    padding-right: 5px;
-
-}
-/*-----------------------        -----------------------*/
 
 /*----------------------- Carousel -----------------------*/
 .car {
     margin-bottom: 10px;
 }
+
 .carousel-inner img {
     height: 450px;
     /*margin-left: 20px;*/
@@ -125,7 +86,7 @@ header .dropdown-menu {
 
 .card img {
     width: 50px;
-    height: 50px;
+    height: 60px;
     padding-top: 12px;
 }
 
@@ -167,18 +128,4 @@ header .dropdown-menu {
 
 /*-----------------------           -----------------------*/
 
-/*----------------------- Footer -----------------------*/
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: aliceblue;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.5rem;
-}
-
-/*-----------------------        -----------------------*/

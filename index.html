@@ -1,8 +1,8 @@
 <!--
 Name: Nathaniel Llacuna
 Professor: Arthur Hendela
-Due Date: 4/29/2022 6:35pm
-Last Updated: 4/21/2022
+Due Date: 4/25/2022 6:35pm
+Last Updated: 4/25/2022
 -->
 
 <!DOCTYPE html>
@@ -18,13 +18,14 @@ Last Updated: 4/21/2022
           rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="mainPage.css" rel="stylesheet">
+    <link href="footerAndHeader.css" rel="stylesheet">
 </head>
 <body>
 <header class="border-bottom border-dark">
     <div class="row">
         <nav class="navbar navbar-expand-md justify-content-start col-12">
             <!-- Clinic Name -->
-<!--            <a class="navbar-brand" href="index.html">Clinic</a>-->
+
                 <a class="navbar-brand" href="index.html"><img  src="img/Mikas%20Psychiatric%20Clinic-logos/Mikas%20Psychiatric%20Clinic-logos_transparent.png"></a>
             <!-- Responsive Button for the smaller menu -->
             <button class="navbar-toggler" type="button"
@@ -67,7 +68,7 @@ Last Updated: 4/21/2022
 
     <div class="row">
         <!-- Carousel -->
-        <div id="demo" class="carousel slide m-auto" data-bs-ride="carousel">
+        <div id="demo" class="carousel slide w-75 m-auto mt-3" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
             <div class="carousel-indicators">
@@ -79,21 +80,17 @@ Last Updated: 4/21/2022
             <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/Carousel/appointment.jpg" alt="Edison Lab" class="d-block w-100">
+                    <img src="img/Carousel/istockphoto-1329038035-170667a.jpg" alt="Therapy Session" class="d-block w-100">
                     <div class="container-sm">
                         <h2>Lorem ipsum</h2>
                         <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sem eu risus rhoncus, ac dapibus velit elementum. Donec a.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Carousel/No%20Face.jpg" alt="Where Airplane Invented" class="d-block w-100">
-                    <div class="container-sm">
-                        <h2>Lorem ipsum</h2>
-                        <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae finibus justo. Curabitur non ligula sit amet est rhoncus hendrerit.</p>
-                    </div>
+                    <img src="img/Carousel/conditions.webp" alt="Mental Health Problems" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Carousel/world.jpg" alt="Ford Model T" class="d-block w-100">
+                    <img src="img/Carousel/reach%20out.avif" alt="Hand in Hand" class="d-block w-100">
                     <div class="container-sm">
                         <h2>Lorem ipsum</h2>
                         <p class="d-block w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur neque nec cursus egestas. Proin eget sapien vitae sapien sodales.</p>
@@ -111,33 +108,36 @@ Last Updated: 4/21/2022
         </div>
     </div>
 
-    <div class="panel row align-items-md-stretch text-center  mx-5 mt-5">
+    <div class="panel row align-items-md-stretch text-center mx-5 mt-5">
         <h2 class="cardTitle border-top border-bottom border-dark">
             Welcome! Accumsan in nisl nisi scelerisque</h2>
 
         <div class="card m-4 mx-auto">
-            <img class="card-img-top rounded-circle m-auto" src="img/telephone.png" alt="Card image cap">
+            <img class="card-img-top rounded-circle m-auto" src="img/telephone.png" alt="Phone">
             <div class="card-body">
                 <h5 class="card-title">Emergency Services</h5>
+                <ul>
+                    <li>National Suicide Prevention Lifeline: 800-273-8255</li>
+                </ul>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in</p>
             </div>
         </div>
         <div class="card  m-4 mx-auto">
-            <img class="card-img-top rounded-circle m-auto" src="img/psychology.png" alt="Card Image Cap">
+            <img class="card-img-top rounded-circle m-auto" src="img/psychology.png" alt="Emotions">
             <div class="card-body">
                 <h5 class="card-title"><a href="typesOfTreatments.html">Types of Treatments</a></h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in</p>
             </div>
         </div>
         <div class="card  m-4 mx-auto">
-            <img class="card-img-top rounded-circle m-auto" src="img/employees.png" alt="Card image cap">
+            <img class="card-img-top rounded-circle m-auto" src="img/employees.png" alt="Staff">
             <div class="card-body">
                 <h5 class="card-title"><a href="employeeBackground.html">Employee Background</a></h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in</p>
             </div>
         </div>
         <div class="card  m-4 mx-auto">
-            <img class="card-img-top rounded-circle m-auto" src="img/random.png" alt="Card Image Cap">
+            <img class="card-img-top rounded-circle m-auto" src="img/random.png" alt="Randomm">
             <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in</p>
@@ -169,30 +169,11 @@ Last Updated: 4/21/2022
             </div>
         </div>
     </div>
-<!--        <div class="row">-->
-<!--            <p class="col-1">Col 1</p>-->
-<!--            <p class="col-1">Col 2</p>-->
-<!--            <p class="col-1">Col 3</p>-->
-<!--            <p class="col-1">Col 4</p>-->
-<!--            <p class="col-1">Col 5</p>-->
-<!--            <p class="col-1">Col 6</p>-->
-<!--            <p class="col-1">Col 7</p>-->
-<!--            <p class="col-1">Col 8</p>-->
-<!--            <p class="col-1">Col 9</p>-->
-<!--            <p class="col-1">Col 10</p>-->
-<!--            <p class="col-1">Col 11</p>-->
-<!--            <p class="col-1">Col 12</p>-->
-<!--            <div class="col-sm-4  text-center">-->
-<!--                <h2>h3 Bootstrap heading (24px)</h2>-->
-<!--                <h3>h4 Bootstrap heading (18px)</h3>-->
-<!--            </div>-->
-<!--        </div>-->
-
 
     <footer class="border-top border-dark footer page-footer font-small ">
         <div class="container">
             <div class="row">
-                <span class="text-muted">&copy; Nathaniel Llacuna, 2022 |  Terms Of Use  |  Privacy Statement</span>
+                <span class="text-muted">&copy; Nathaniel Llacuna, April 25, 2022 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>
