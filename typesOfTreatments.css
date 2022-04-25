@@ -6,9 +6,9 @@ Last Updated: 4/21/2022
  -------------------------*/
 
 body {
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     font-family: Futura;
-    color: #360860
+    color: black;
 }
 
 /*----------------------- Header -----------------------*/
@@ -53,6 +53,11 @@ header .dropdown-menu {
 
 /*------------------- List of Treatments ----------------------*/
 
+.cog {
+    height: 280px;
+    width: 280px;
+    float: left;
+}
 
 .list-of-treatmetns {
     margin-top: 50px;
@@ -63,6 +68,7 @@ h1 {
     margin-left: 12px;
     padding-left: 10px;
     background-color: white;
+    font-weight: bolder;
 }
 
 

@@ -52,6 +52,50 @@ header .dropdown-menu {
 /*-----------------------        -----------------------*/
 
 
+/*-----------------------   Employee Info   -----------------------*/
+
+
+.container-lg {
+
+}
+h1 {
+    margin-top: 10px;
+    margin-left: 16px;
+    padding-left: 10px;
+    overflow: auto;
+}
+
+h5 {
+    padding-top: 20px;
+}
+
+h4 {
+    font-style: initial;
+    font-size: 35px;
+}
+
+h4,p {
+    padding-top: 30px;
+}
+.purpose {
+    padding-top: 0px;
+}
+
+
+.loc-info img {
+    padding-top: 110px;
+}
+
+.bottomTxt {
+    padding-bottom: 12px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/*-----------------------                  -----------------------*/
+
 /*----------------------- Footer -----------------------*/
 
 .footer {
